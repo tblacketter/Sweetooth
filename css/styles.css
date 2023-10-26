@@ -1,1 +1,25 @@
+:root {
+    --orange:#dd7819;
+    --dark-color:#ab5c13;
+    --black: #444;
+    --light-color: #777;
+}
 
+.header .header-2 {
+    background: var(--orange);
+}
+
+.header .header-2 .navbar {
+    text-align: center;
+}
+
+.header .header-2 .navbar a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.7rem;
+    padding: 1.2rem;
+}
+
+.header .header-2 .navbar a:hover {
+    background: var(--dark-color);
+}
