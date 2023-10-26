@@ -7,21 +7,21 @@
     --light-color: #777;
 }
 
-.header .header-2 {
+.navbar {
     background: var(--orange);
 }
 
-.header .header-2 .navbar {
+.navbar {
     text-align: center;
 }
 
-.header .header-2 .navbar a {
+.navbar a {
     color: #fff;
     display: inline-block;
     font-size: 1.7rem;
     padding: 1.2rem;
 }
 
-.header .header-2 .navbar a:hover {
+.navbar a:hover {
     background: var(--dark-color);
 }
