@@ -29,13 +29,14 @@
     display: inline-block;
     font-size: 1.7rem;
     padding: 1.2rem;
+    text-decoration: none;
 }
 
 .navbar a:hover {
     background: var(--dark-color);
 }
 
-body{
+main{
     /* (Orange Peel (#FF9F00) 
     /Yellow-Orange(#FFAE42) 
     /Sherbert Orange (#F99E58))? */
