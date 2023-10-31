@@ -1,3 +1,6 @@
+/* color reference
+ https://www.color-name.com/orange-peel.color#:~:text=Orange%20Peel%20Color%20Palettes%201%20Complementary%20Palette%20The,4%20Triadic%20Palette%20...%205%20Tetradic%20Palette%20 */
+
 :root {
     --orange:#FF9F00;
     --yellow-orange:#FFAE42;
@@ -25,4 +28,11 @@
 
 .navbar a:hover {
     background: var(--dark-color);
+}
+
+main{
+    /* (Orange Peel (#FF9F00) 
+    /Yellow-Orange(#FFAE42) 
+    /Sherbert Orange (#F99E58))? */
+    background-color:#FFCF80 ;
 }
