@@ -36,11 +36,16 @@
     background: var(--dark-color);
 }
 
-main{
+body{
     /* (Orange Peel (#FF9F00) 
     /Yellow-Orange(#FFAE42) 
     /Sherbert Orange (#F99E58))? */
     background-color:#FFCF80 ;
+    margin: 0;
+}
+#candyShop{
+    max-width: 50%;
+    max-height: 75%;
 }
 
 .truffles {
