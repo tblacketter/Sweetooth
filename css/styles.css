@@ -1,6 +1,8 @@
 /* color reference
  https://www.color-name.com/orange-peel.color#:~:text=Orange%20Peel%20Color%20Palettes%201%20Complementary%20Palette%20The,4%20Triadic%20Palette%20...%205%20Tetradic%20Palette%20 */
 
+
+ /* This Is A Color Library */ 
 :root {
     --orange:#FF9F00;
     --yellow-orange:#FFAE42;
@@ -24,6 +26,7 @@
     display: inline-block;
     font-size: 1.7rem;
     padding: 1.2rem;
+    text-decoration: none;
 }
 
 .navbar a:hover {
