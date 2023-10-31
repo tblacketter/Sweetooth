@@ -61,6 +61,7 @@ body{
     /Yellow-Orange(#FFAE42) 
     /Sherbert Orange (#F99E58))? */
     background-color:#FFCF80 ;
+    margin: 0;
 }
 #candyShop{
     max-width: 50%;
