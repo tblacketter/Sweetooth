@@ -1,16 +1,21 @@
 /* color reference
  https://www.color-name.com/orange-peel.color#:~:text=Orange%20Peel%20Color%20Palettes%201%20Complementary%20Palette%20The,4%20Triadic%20Palette%20...%205%20Tetradic%20Palette%20 */
 
+ * {
+    margin: 0;
+ }
+
  h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     color: white;
  }
+
 :root {
-    --orange:#FF9F00;
+    --orange:#6698ff;
     --yellow-orange:#FFAE42;
     --sherbert-orange:#F99E58;
-    --dark-color:#ab5c13;
+    --dark-color:#365289;
     --black: #444;
     --light-color: #777;
 }
@@ -30,6 +35,7 @@
     font-size: 1.7rem;
     padding: 1.2rem;
     text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .navbar a:hover {
@@ -37,9 +43,10 @@
 }
 
 main{
-    /* (Orange Peel (#FF9F00) 
-    /Yellow-Orange(#FFAE42) 
-    /Sherbert Orange (#F99E58))? */
+    /*
+    Orange Peel (#FF9F00) 
+    Yellow-Orange(#FFAE42) 
+    Sherbert Orange (#F99E58))? */
     background-color:#FFCF80 ;
 }
 
@@ -57,5 +64,3 @@ main{
     width: 30vw;
     height: 25vw;
 }
-
-
