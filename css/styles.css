@@ -1,19 +1,28 @@
 /* color reference
  https://www.color-name.com/orange-peel.color#:~:text=Orange%20Peel%20Color%20Palettes%201%20Complementary%20Palette%20The,4%20Triadic%20Palette%20...%205%20Tetradic%20Palette%20 */
 
+ * {
+    margin: 0;
+ }
 
- /* This Is A Color Library */ 
 :root {
-    --orange:#FF9F00;
+    --blue:#6698ff;
     --yellow-orange:#FFAE42;
     --sherbert-orange:#F99E58;
-    --dark-color:#ab5c13;
+    --dark-color:#365289;
     --black: #444;
     --light-color: #777;
 }
 
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+}
+
 .navbar {
-    background: var(--orange);
+    background: var(--blue);
     border: none;
 }
 
@@ -27,38 +36,84 @@
     font-size: 1.7rem;
     padding: 1.2rem;
     text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .navbar a:hover {
     background: var(--dark-color);
+}
 
-} 
+body{
+    /*
+    Orange Peel (#FF9F00) 
+    Yellow-Orange(#FFAE42) 
+    Sherbert Orange (#F99E58))?
+    */
+    background-color:#FFCF80 ;
+    margin: 0;
+}
+
+main{
+    display: inline-block;
+}
 
 footer {
-    background-color: #6698FF;
+    background-color: var(--blue);
     color: white;
     height: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%; 
     margin-top: 10px;
+}
   
-  }
-  
-  .footer-content {
+main img {
+    border-style: solid;
+    border-color: #F99E58;
+    border-width: 20px;
+}
+
+.footer-content {
     display: flex;
-      
-  }
+}
   
 .footer-section-hrs, .footer-section-address, .footer-section-directions  {
     flex: .4; 
+}
 
-  }
+#candyShop{
+    max-width: 50%;
+    max-height: 75%;
+    margin-left: 25%; 
+    margin-right: 25%;
+}
+    
 
+.truffles {
+    margin-left: 15em;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    width: 30vw;
+    height: 25vw;
+}
 
-main{
-    /* (Orange Peel (#FF9F00) 
-    /Yellow-Orange(#FFAE42) 
-    /Sherbert Orange (#F99E58))? */
-    background-color:#FFCF80 ;
+.family {
+    margin-left: 11em;
+    margin-bottom: 5em;
+    width: 30vw;
+    height: 25vw;
+}   
+.header img{
+    float: left;
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.header{
+    text-align: center;
+    background-color: lightpink;
+    margin: 0;
+    padding: 10px;
+    display: block;
 }
