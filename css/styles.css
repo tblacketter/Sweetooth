@@ -49,6 +49,9 @@ body{
     background-color:#FFCF80 ;
     margin: 0;
 }
+main{
+    display: inline-block;
+}
 footer {
     background-color: #6698FF;
     color: white;
@@ -60,6 +63,11 @@ footer {
   
   }
   
+  img{
+    border-style: solid;
+    border-color: #F99E58;
+    border-width: 20px;
+  }
   .footer-content {
     display: flex;
       
@@ -70,8 +78,11 @@ footer {
 
   }
 #candyShop{
+    
     max-width: 50%;
-    max-height: 75%;;
+    max-height: 75%;
+    margin-left: 25%; 
+    margin-right: 25%;
 }
 
 .truffles {
