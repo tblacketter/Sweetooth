@@ -99,4 +99,18 @@ footer {
     margin-bottom: 5em;
     width: 30vw;
     height: 25vw;
+}   
+.header img{
+    float: left;
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.header{
+    text-align: center;
+    background-color: lightpink;
+    margin: 0;
+    padding: 10px;
+    display: block;
 }
